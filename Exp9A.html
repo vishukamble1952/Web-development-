@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Registration Form</title>
+ <style>
+  h2{
+    color:red;
+  }
+ </style>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="exp9-registration done.html">
+        <label>First Name:</label>
+        <input type="text"  required><br><br>
+
+        <label>Middle Name:</label>
+        <input type="text" name="middlename"><br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastname" required><br><br>
+
+        <label>Address:</label>
+        <textarea name="address" rows="4" cols="30" required></textarea><br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio"> Male
+        <input type="radio"> Female
+        <input type="radio"> Other
+        <br><br>
+
+        <label>College Name:</label><br>
+        <select name="college" required>
+            <option>--Select College--</option>
+            <option>DYPCET</option>
+            <option>KIT</option>
+            <option>DKIT</option>
+            <option>DOT</option>
+        </select><br><br>
+
+        <label>Branch:</label><br>
+        <select name="branch" required>
+            <option>--Select Branch--</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+            <option>Electrical</option>
+        </select><br><br>
+
+        <label>Technical Skills:</label><br>
+        <input type="checkbox"> HTML <br>
+        <input type="checkbox"> CSS <br> 
+        <input type="checkbox"> JavaScript <br>
+        <input type="checkbox">Python
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
