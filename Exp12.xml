@@ -2,15 +2,15 @@
 <?xml-stylesheet type = "text/xsl" href = "students.xsl"?>
 <class> 
    <student rollno = "113">
-      <firstname>Sam</firstname>  
-      <lastname>Chavan</lastname> 
-      <nickname>Samu</nickname> 
+      <firstname>Vishwajeet</firstname>  
+      <lastname>kamble</lastname> 
+      <nickname>vishu</nickname> 
       <marks>85</marks>
    </student> 
    <student rollno = "112"> 
-      <firstname>Pranoti</firstname> 
-      <lastname>Gupta</lastname> 
-      <nickname>Pannu</nickname> 
+      <firstname>Abhya</firstname> 
+      <lastname>kamble</lastname> 
+      <nickname>abhi</nickname> 
       <marks>95</marks>
    </student>
    <student rollno = "111"> 
